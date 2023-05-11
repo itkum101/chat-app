@@ -45,6 +45,9 @@ passport.deserializeUser(function (obj, cb) {
 var userProfile;
 
 const GoogleStrategy = require("passport-google-oauth2").Strategy;
+// const GOOGLE_CLIENT_ID =
+//   "579095758139-4t55guuuaptjidb76oojg1tepv2op1ed.apps.googleusercontent.com";
+// const GOOGLE_CLIENT_SECRET = "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";
 
 const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
 
